@@ -6,4 +6,5 @@ module.exports = {
 	es: require('./lang/es'),
 	kr: require('./lang/kr'),
 	nl: require('./lang/nl'),
+	fr: require('./lang/fr'),
 }
