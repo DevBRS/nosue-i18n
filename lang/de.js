@@ -1,11 +1,9 @@
 module.exports = {
 	lang: "Deutsch",
-
 	common: {
 		search: "Suchen...",
 		leaderboard: "Rangliste",
 		login: "Login",
-@@ -9,19 +9,65 @@ module.exports = {
 		performance: "Performance",
 		score: "Score",
 		dashboard: "Amaturenbrett",
