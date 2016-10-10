@@ -1,11 +1,9 @@
 module.exports = {
 	lang: "Français",
-
 	common: {
 		search: "recherche...",
 		leaderboard: "classement",
 		login: "Login",
-@@ -9,19 +9,65 @@ module.exports = {
 		performance: "résultats",
 		score: "Score",
 		dashboard: "tableau de bord",
@@ -31,7 +29,6 @@ module.exports = {
 			error: "S'il vous plaît vérifier votre Nom d'utilisateur/mot de passe."
 		},
 		logout: {
-			success: "Vous avez enregistré avec succès."
 			success: "Vous avez enregistré avec succès.",
 			error: "Une erreur est survenue lors de la fermeture de session."
 		},
