@@ -33,7 +33,7 @@ module.exports = {
 		logout: {
 			success: "ログアウトが完了しました。",
 			error: "ログアウトに失敗しました。"
-		}
+		},
 		register: {
 			success: "nosue!にようこそ！ごゆっくり～",
 			error: {
@@ -50,7 +50,7 @@ module.exports = {
 	},
 		scoreboard: {
 		rank: "ランク",
-		accuracy: "Accracy",
+		accuracy: "Accuracy",
 		playcount: "プレイカウント",
 		player: "プレイヤー",
 		pp: "PP",
