@@ -1,9 +1,11 @@
 module.exports = {
 	lang: "Deutsch",
+
 	common: {
 		search: "Suchen...",
 		leaderboard: "Rangliste",
 		login: "Login",
+@@ -9,19 +9,65 @@ module.exports = {
 		performance: "Performance",
 		score: "Score",
 		dashboard: "Amaturenbrett",
@@ -15,7 +17,7 @@ module.exports = {
 			submit: "einreichen"
 		},
 		error: {
-			e500: "Ein Fehler ist aufgetreten während einer Anforderung. (Error 500)"
+			e500: "Ein Fehler ist während einer Anforderung aufgetreten. (Error 500)"
 		}
 	},
 	auth: {
@@ -29,18 +31,19 @@ module.exports = {
 			error: "Bitte überprüfe dein Benutzername/Passwort."
 		},
 		logout: {
+			success: "Du hast dich erfolgreich abgemeldet!"
 			success: "Du hast dich erfolgreich abgemeldet!",
-			error: "Ein Fehler ist während des abmeldens aufgetreten."
+			error: "Ein Fehler während des abmeldens ist aufgetreten."
 		},
 		register: {
 			success: "Willkommen auf nosue! Bitte genießen Sie Ihren Aufenthalt.",
 			error: {
 				email: {
 					invalid: "Die E-mail ist nicht gültig!",
-					taken: "Die E-mail wurde bereits schon benutzt!",
+					taken: "Die E-mail wurde bereits benutzt!",
 				},
 				name: {
-					invalid: "Dein Benutzername ist ungültig! Bitte nutze Englische Ziffern und Nummern! (not limited to spaces and - [])",
+					invalid: "Dein Benutzername ist ungültig! Bitte nutze Englische Ziffern und Nummern! (nicht limitiert bei Leerzeichen und - [])",
 					taken: "Entschuldigung, der Benutzername ist schon vergeben."
 				}
 			}
@@ -49,13 +52,13 @@ module.exports = {
 	scoreboard: {
 		rank: "Rang",
 		accuracy: "Genauigkeit",
-		playcount: "Rundenzähler",
+		playcount: "Gespielte Lieder",
 		player: "Spieler",
 		pp: "PP",
 		score: "Score",
 		ranking: {
 			global: "Globaler Rang",
-			country: "Länderrang",
+			country: "Landesrang",
 			friend: "Freundesrang"
 		}
 	},
