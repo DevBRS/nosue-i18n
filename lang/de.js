@@ -29,7 +29,6 @@ module.exports = {
 			error: "Bitte überprüfe dein Benutzername/Passwort."
 		},
 		logout: {
-			success: "Du hast dich erfolgreich abgemeldet!"
 			success: "Du hast dich erfolgreich abgemeldet!",
 			error: "Ein Fehler während des abmeldens ist aufgetreten."
 		},
