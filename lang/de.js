@@ -1,11 +1,9 @@
 module.exports = {
 	lang: "Deutsch",
-
 	common: {
 		search: "Suchen...",
 		leaderboard: "Rangliste",
 		login: "Login",
-@@ -9,19 +9,65 @@ module.exports = {
 		performance: "Performance",
 		score: "Score",
 		dashboard: "Amaturenbrett",
@@ -31,7 +29,6 @@ module.exports = {
 			error: "Bitte überprüfe dein Benutzername/Passwort."
 		},
 		logout: {
-			success: "Du hast dich erfolgreich abgemeldet!"
 			success: "Du hast dich erfolgreich abgemeldet!",
 			error: "Ein Fehler ist während des abmeldens aufgetreten."
 		},
