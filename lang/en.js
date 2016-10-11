@@ -27,7 +27,7 @@ module.exports = {
 		},
 		error: {
 			default: "Error",
-			e500: "There was an error while making your reqest (Error 500)"
+			e500: "There was an error while making your request (Error 500)"
 		}
 	},
 	auth: {
