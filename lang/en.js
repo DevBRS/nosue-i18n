@@ -1,6 +1,7 @@
 module.exports = {
 	lang: "English",
 	common: {
+		home: "Home",
 		search: "Search...",
 		leaderboard: "Rankings",
 		login: "Login",
@@ -9,6 +10,7 @@ module.exports = {
 		performance: "Performance",
 		score: "Score",
 		dashboard: "Dashboard",
+		beatmaps: "Beatmaps",
 		any: "Any",
 		field: { // Common Form fields
 			username: "Username",
@@ -16,7 +18,15 @@ module.exports = {
 			email: "E-mail",
 			submit: "Submit"
 		},
+		message: {
+			connect: "How to connect",
+			welcome: {
+				anon: "Welcome to nosue!",
+				user: "Welcome back, {name}!"
+			}
+		},
 		error: {
+			default: "Error",
 			e500: "There was an error while making your reqest (Error 500)"
 		}
 	},
@@ -65,6 +75,7 @@ module.exports = {
 			pending: "Pending",
 			graveyard: "Graveyard"
 		},
+		listing: "Beatmap Listing",
 		mapped: "mapped by {name}",
 		submitted: "submitted on {date}",
 		ranked: "ranked on {date}",
