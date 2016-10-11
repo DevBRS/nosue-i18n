@@ -1,12 +1,16 @@
 module.exports = {
 	lang: "Deutsch",
 	common: {
+		home: "Startseite",
 		search: "Suchen...",
 		leaderboard: "Rangliste",
-		login: "Login",
+		login: "Einloggen",
+		logout: "Ausloggen",
+		register: "Registrieren",
 		performance: "Performance",
 		score: "Score",
 		dashboard: "Amaturenbrett",
+		beatmaps: "Beatmaps",
 		any: "Any",
 		field: { // Common Form fields
 			username: "Benutzername",
@@ -14,15 +18,20 @@ module.exports = {
 			email: "E-mail",
 			submit: "einreichen"
 		},
+		message: {
+			connect: "Wie man sich verbindet!",
+			welcome: {
+				anon: "Willkommen auf nosue!",
+				user: "Willkommen zurück, {name}!"
+			}
+		},
 		error: {
+			default: "Error",
 			e500: "Ein Fehler ist während einer Anforderung aufgetreten. (Error 500)"
 		}
 	},
 	auth: {
-		login: {
-			name: "Benutzername",
-			password: "Passwort",
-
+	  login: {
 			forgotpass: "Passwort vergessen?",
 
 			success: "Du hast dich erfolgreich angemeldet!",
@@ -33,7 +42,7 @@ module.exports = {
 			error: "Ein Fehler während des abmeldens ist aufgetreten."
 		},
 		register: {
-			success: "Willkommen auf nosue! Bitte genießen Sie Ihren Aufenthalt.",
+			success: "Willkommen auf nosue! Bitte genieße dein Aufenthalt.",
 			error: {
 				email: {
 					invalid: "Die E-mail ist nicht gültig!",
@@ -66,6 +75,7 @@ module.exports = {
 			pending: "Pending",
 			graveyard: "Graveyard"
 		},
+	  listing: "Beatmap Listing",
 		mapped: "mapped by {name}",
 		submitted: "submitted on {date}",
 		ranked: "ranked on {date}",
