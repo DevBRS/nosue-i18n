@@ -6,7 +6,7 @@ module.exports = {
 		leaderboard: "랭킹",
 		login: "로그인",
 		logout: "로그아웃",
-		register: "회원가입",
+		register: "가입하기",
 		performance: "Performance",
 		score: "점수",
 		dashboard: "대시보드",
@@ -34,7 +34,7 @@ module.exports = {
 		login: {
 			forgotpass: "비밀번호를 잊으셨나요?",
 
-			success: "성공적으로 로 했습니다.",
+			success: "성공적으로 로그인 했습니다.",
 			error: "아이디 그리고/또는 비밀번호를 확인해 주세요."
 		},
 		logout: {
