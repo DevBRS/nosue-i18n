@@ -1,14 +1,16 @@
 module.exports = {
 	lang: "Español",
 	common: {
+		home: "Inicio",
 		search: "Buscar...",
-		leaderboard: "Rankings",  // It can be translated as "Posiciones", but most people understand "Rankings" better
+		leaderboard: "Rankings",
 		login: "Iniciar sesión",
 		logout: "Cerrar sesión",
 		register: "Registrarse",
-		performance: "PP",
+		performance: "Rendimiento",
 		score: "Puntuación",
 		dashboard: "Tablero",
+		beatmaps: "Beatmaps",
 		any: "Todos",
 		field: { // Common Form fields
 			username: "Usuario",
@@ -16,8 +18,16 @@ module.exports = {
 			email: "Correo",
 			submit: "Enviar"
 		},
+		message: {
+			connect: "Cómo conectarse",
+			welcome: {
+				anon: "Bienvenido a nosue!",
+				user: "¡Bienvenido de vuelta, {name}!"
+			}
+		},
 		error: {
-			e500: "Ocurrió un error al realizar tu solicitud (Error 500)"
+			default: "Error",
+			e500: "Ocurrió un error al realizar la solicitud (Error 500)"
 		}
 	},
 	auth: {
@@ -39,7 +49,7 @@ module.exports = {
 					taken: "¡Ese correo ya está en uso!",
 				},
 				name: {
-					invalid: "¡El nombre de usuario no es válido! Utiliza letras del inglés y números (se admiten espacios y - [])",
+					invalid: "¡El nombre de usuario no es válido! Utiliza caracteres A-Z, a-z, 0-9, espacios y _-[]",
 					taken: "¡Disculpa, pero ese nombre de usuario ya está en uso!"
 				}
 			}
@@ -48,7 +58,7 @@ module.exports = {
 	scoreboard: {
 		rank: "Posición",
 		accuracy: "Precisión",
-		playcount: "Partidas jugadas",
+		playcount: "Conteo de jugadas",
 		player: "Jugador",
 		pp: "PP",
 		score: "Puntuación",
@@ -65,6 +75,7 @@ module.exports = {
 			pending: "En espera",
 			graveyard: "Cementerio"
 		},
+		listing: "Lista de beatmaps",
 		mapped: "mappeado por {name}",
 		submitted: "enviado el {date}",
 		ranked: "rankeado el {date}",
