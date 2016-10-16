@@ -69,5 +69,26 @@ module.exports = {
 		submitted: "ingediend op {date}",
 		ranked: "Werd gerangschikt op {date}",
 		download: "download",
+			},
+ +	userpage: {
+ +		recentactivity: "Recente Activiteiten",
+ +		registered: "Geregistreerd",
+ +		lastseen: "Laatst Gezien",
+ +		report: "Rapporteer",
+ +		changeavatar: "Avatar Veranderen",
+ +		rankedscore: "Gerangschikt Score",
+ +		totalscore: "Totale Score",
+ +		level: "Level",
+ +		topplays: "Top Plays",
+ +		playcount: "Play Count",
+ +		maxcombo: "Maximale Combo",
+ +		activity: {
+ +			rank: "Bereikte rang #{rank} op {beatmap}",
+ +			lost: "Heeft eerste plaats verloren op {beatmap}",
+ +			achievement: "Heeft net de {achievement} bereikt",
+ +			nothing: "Heeft niks onlangs gedaan",
+ +		}
 	}
 }
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
