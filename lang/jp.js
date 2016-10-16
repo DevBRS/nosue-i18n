@@ -16,6 +16,13 @@ module.exports = {
 			email: "E-mail",
 			submit: "送信"
 		},
+		message: {
+			connect: "接続方法",
+			welcome: {
+				anon: "nosue!へようこそ",
+				user: "おかえりなさい！ {name}!"
+			}
+		},
 		error: {
 			e500: "リクエスト中にエラーが発生しました。 (エラー: 500)"
 		}
@@ -43,12 +50,12 @@ module.exports = {
 				},
 				name: {
 					invalid: "ユーザー名が無効です。英語の文字と数字を使用してください。（[, ], -, スペースも使用可能です。）",
-					taken: "ごめんなさい。そのユーザーはすでに使用されています。"
+					taken: "ごめんなさい。そのユーザー名はすでに使用されています。"
 				}
 			}
 		}
 	},
-		scoreboard: {
+	scoreboard: {
 		rank: "ランク",
 		accuracy: "Accuracy",
 		playcount: "プレイカウント",
@@ -68,6 +75,7 @@ module.exports = {
 			pending: "Pending",
 			graveyard: "Graveyard"
 		},
+		listing: "Beatmapリスト",
 		mapped: "{name} さんが作成",
 		submitted: "{date} に送信",
 		ranked: "{date} にRanked",

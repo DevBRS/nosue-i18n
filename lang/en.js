@@ -80,5 +80,24 @@ module.exports = {
 		submitted: "submitted on {date}",
 		ranked: "ranked on {date}",
 		download: "download",
+	},
+	userpage: {
+		recentactivity: "Recent Activity",
+		registered: "Registered",
+		lastseen: "Last Seen",
+		report: "Report",
+		changeavatar: "Change Avatar",
+		rankedscore: "Ranked Score",
+		totalscore: "Total Score",
+		level: "Level",
+		topplays: "Top Plays",
+		playcount: "Play Count",
+		maxcombo: "Max Combo",
+		activity: {
+			rank: "Achieved rank #{rank} on {beatmap}",
+			lost: "Lost first place on {beatmap}",
+			achievement: "Has gained the achievement {achievement}",
+			nothing: "Has done nothing recently",
+		}
 	}
 }
