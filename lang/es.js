@@ -80,5 +80,24 @@ module.exports = {
 		submitted: "enviado el {date}",
 		ranked: "rankeado el {date}",
 		download: "Descargar",
+	},
+	userpage: {
+		recentactivity: "Actividad reciente",
+		registered: "Registrado",
+		lastseen: "Visto por última vez",
+		report: "Reportar",
+		changeavatar: "Cambiar avatar",
+		rankedscore: "Puntuación rankeada",
+		totalscore: "Puntuación total",
+		level: "Nivel",
+		topplays: "Mejores jugadas",
+		playcount: "Conteo de jugadas",
+		maxcombo: "Combo máximo",
+		activity: {
+			rank: "Logró la posición #{rank} en {beatmap}",
+			lost: "Perdió el primer lugar en {beatmap}",
+			achievement: "Ha conseguido el logro {achievement}",
+			nothing: "No tiene actividad reciente",
+		}
 	}
 }
