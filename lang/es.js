@@ -97,7 +97,7 @@ module.exports = {
 			rank: "Logró la posición #{rank} en {beatmap}",
 			lost: "Perdió el primer lugar en {beatmap}",
 			achievement: "Ha conseguido el logro {achievement}",
-			nothing: "No ha hecho nada recientemente",
+			nothing: "No tiene actividad reciente",
 		}
 	}
 }
