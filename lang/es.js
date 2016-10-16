@@ -96,7 +96,7 @@ module.exports = {
 		activity: {
 			rank: "Logró la posición #{rank} en {beatmap}",
 			lost: "Perdió el primer lugar en {beatmap}",
-			achievement: "Ha desbloqueado el logro {achievement}",
+			achievement: "Ha conseguido el logro {achievement}",
 			nothing: "No ha hecho nada recientemente",
 		}
 	}
